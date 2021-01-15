@@ -1,4 +1,4 @@
-*:not(input textarea){
+*:not(input,textarea){
     font-family: Georgia;
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
