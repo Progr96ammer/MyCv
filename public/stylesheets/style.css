@@ -1,3 +1,7 @@
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0rem transparent;
+}
 *:not(input,textarea){
     font-family: Georgia;
     -webkit-user-select: none;  /* Chrome all / Safari all */
