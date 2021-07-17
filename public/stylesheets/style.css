@@ -137,6 +137,9 @@ body{
     .border-md{
         border-right: 1px solid #dee2e6!important;
     }
+    .border-md-left{
+        border-left: 1px solid #dee2e6!important;
+    }
 }
 
 /* Medium Devices, Desktops */
