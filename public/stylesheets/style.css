@@ -129,7 +129,9 @@ body{
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+    .border-sm-none{
+        border-bottom: 0px solid #dee2e6!important;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -139,6 +141,9 @@ body{
     }
     .border-md-left{
         border-left: 1px solid #dee2e6!important;
+    }
+    .border-md-none{
+        border-bottom: 0px solid #dee2e6!important;
     }
 }
 
