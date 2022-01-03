@@ -1,6 +1,6 @@
-.btn.focus, .btn:focus {
+button{
     outline: 0;
-    box-shadow: 0 0 0 0rem transparent;
+    box-shadow: 0 0 0 0rem #f8f9fa !important;
 }
 *:not(input,textarea){
     font-family: Georgia;
@@ -39,7 +39,7 @@ body{
 .circle-chart__background {
   stroke: #efefef;
   stroke-width: 2;
-  fill: none; 
+  fill: none;
 }
 
 .circle-chart__info {
