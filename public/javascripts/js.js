@@ -22,9 +22,9 @@ function makesvg(percentage, inner_text=""){
   if(inner_text){
     svg += '<text class="circle-chart__subline" x="16.91549431" y="22">'+inner_text+'</text>'
   }
-  
+
   svg += ' </g></svg>';
-  
+
   return svg
 }
 
@@ -69,3 +69,7 @@ $("#submit").click (function() {
       },
     });
 });
+function rotate(name) {
+        $('#'+name).toggleClass('rotate');
+        $('#'+name).toggleClass('rotate2');
+}

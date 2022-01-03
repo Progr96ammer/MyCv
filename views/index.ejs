@@ -116,7 +116,7 @@
               <div class="row">
                 <div class="col-md-6">
 
-                  <div class="row border-bottom border-md" data-toggle="collapse" data-target="#html" aria-expanded="false" aria-controls="collapseExample">
+                  <div onclick="rotate(`moreHtml`);" class="row border-bottom border-md" data-toggle="collapse" data-target="#html" aria-expanded="false" aria-controls="collapseExample">
                     <div class="circlechart mb-3 col-4 pt-2" data-percentage="97">HTML 5</div>
                     <div class="col-7 align-self-center">
                       <ul class="ul">
@@ -129,7 +129,7 @@
                       </ul>
                     </div>
                     <div class="col-1 dropdown ml-n3">
-                      <button class="btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
+                      <button id="moreHtml" class="rotate btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
                       </button>
                     </div>
                     <div class="collapse col-12" id="html">
@@ -155,7 +155,7 @@
                     </div>
                   </div>
 
-                  <div class="row border-bottom border-md" data-toggle="collapse" data-target="#css" aria-expanded="false" aria-controls="collapseExample">
+                  <div onclick="rotate(`moreCss`);" class="row border-bottom border-md" data-toggle="collapse" data-target="#css" aria-expanded="false" aria-controls="collapseExample">
                     <div class="circlechart mb-3 col-4 pt-2" data-percentage="90">CSS 3</div>
                     <div class="col-7 align-self-center">
                       <ul class="ul">
@@ -168,7 +168,7 @@
                       </ul>
                     </div>
                     <div class="col-1 dropdown ml-n3">
-                      <button class="btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
+                      <button id="moreCss" class="rotate btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
                       </button>
                     </div>
                     <div class="collapse col-12 row" id="css">
@@ -198,7 +198,7 @@
                     </div>
                   </div>
 
-                  <div class="row border-bottom border-md border-md-none" data-toggle="collapse" data-target="#javascript" aria-expanded="false" aria-controls="collapseExample">
+                  <div onclick="rotate(`moreJavascript`);" class="row border-bottom border-md border-md-none" data-toggle="collapse" data-target="#javascript" aria-expanded="false" aria-controls="collapseExample">
                     <div class="circlechart mb-3 col-4 pt-2" data-percentage="90">Javascript</div>
                     <div class="col-7 align-self-center">
                       <ul class="ul" style="line-height: normal">
@@ -220,7 +220,7 @@
                       </ul>
                     </div>
                     <div class="col-1 dropdown ml-n3">
-                      <button class="btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
+                      <button id="moreJavascript" class="rotate2 btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
                       </button>
                     </div>
                     <div class="collapse col-12 row" id="javascript">
@@ -262,7 +262,7 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="row border-bottom border-md-left" data-toggle="collapse" data-target="#database" aria-expanded="false" aria-controls="collapseExample">
+                  <div onclick="rotate(`moreDatabase`);" class="row border-bottom border-md-left" data-toggle="collapse" data-target="#database" aria-expanded="false" aria-controls="collapseExample">
                     <div class="circlechart mb-3 col-4 pt-2" data-percentage="85">Database</div>
                     <div class="col-7 align-self-center">
                       <ul class="ul">
@@ -275,7 +275,7 @@
                       </ul>
                     </div>
                     <div class="col-1 dropdown ml-n3">
-                      <button class="btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
+                      <button id="moreDatabase" class="rotate btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
                       </button>
                     </div>
                     <div class="collapse col-12 row" id="database">
@@ -298,7 +298,7 @@
                     </div>
                   </div>
 
-                  <div class="row border-bottom border-md-left" data-toggle="collapse" data-target="#php" aria-expanded="false" aria-controls="collapseExample">
+                  <div onclick="rotate(`morePhp`);" class="row border-bottom border-md-left" data-toggle="collapse" data-target="#php" aria-expanded="false" aria-controls="collapseExample">
                     <div class="circlechart mb-3 col-4 pt-2" data-percentage="93">PHP</div>
                     <div class="col-7 align-self-center">
                       <ul class="ul">
@@ -308,7 +308,7 @@
                       </ul>
                     </div>
                     <div class="col-1 dropdown ml-n3">
-                      <button class="btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
+                      <button id="morePhp" class="rotate btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
                       </button>
                     </div>
                     <div class="collapse col-12 row" id="php">
@@ -334,7 +334,7 @@
                     </div>
                   </div>
 
-                  <div class="row border-sm-none border-md-left"  data-toggle="collapse" data-target="#networking" aria-expanded="false" aria-controls="collapseExample">
+                  <div onclick="rotate(`moreNetworking`);" class="row border-sm-none border-md-left"  data-toggle="collapse" data-target="#networking" aria-expanded="false" aria-controls="collapseExample">
                     <div class="circlechart mb-3 col-4 pt-2" data-percentage="49">Networking</div>
                     <div class="col-7 align-self-center">
                       <ul class="ul">
@@ -344,7 +344,7 @@
                       </ul>
                     </div>
                     <div class="col-1 dropdown ml-n3">
-                      <button class="btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
+                      <button id="moreNetworking" class="rotate btn btn-secondary dropdown-toggle" style="border: 0px; background-color: transparent;color: grey" type="button">
                       </button>
                     </div>
                     <div class="collapse col-12 row" id="networking">
